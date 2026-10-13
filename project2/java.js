@@ -23,7 +23,6 @@ function move() {
             label.innerHTML = current + "%";
 
             let index = Math.floor(current / 10);
-            //optional chaining here 
             updates[index]?.classList.add("active");
         }
     }
